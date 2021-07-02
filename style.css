@@ -1,0 +1,42 @@
+    h1{color: blueviolet;}
+    /* *{border: solid;} */
+    .header
+    {
+        background-color: rgb(209, 117, 135);
+        display: grid;
+        justify-content:flex-start ;
+    }
+
+    .grid
+    {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer
+    {
+        background-color: lightgreen;
+        display: inline-flex;
+        justify-content:space-evenly;
+    }
+
+    .site-description
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: first baseline;
+    }
+
+    p,h2
+    {
+        text-align: center;
+
+    }
+
+    body
+    {
+        background-color: #808080;
+    }
+
